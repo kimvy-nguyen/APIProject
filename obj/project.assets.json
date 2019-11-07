@@ -11797,23 +11797,39 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
+    "C:\\Users\\manik\\.nuget\\packages\\": {},
+=======
     "C:\\Users\\maril\\.nuget\\packages\\": {},
+>>>>>>> 96e06e905e730f9dad12309f8cbce7f207ffc457
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\manik\\OneDrive\\Desktop\\RecipePuppy\\APIProject\\APIProject.csproj",
+      "projectName": "APIProject",
+      "projectPath": "C:\\Users\\manik\\OneDrive\\Desktop\\RecipePuppy\\APIProject\\APIProject.csproj",
+      "packagesPath": "C:\\Users\\manik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\manik\\OneDrive\\Desktop\\RecipePuppy\\APIProject\\obj\\",
+=======
       "projectUniqueName": "C:\\Users\\maril\\Desktop\\APIProject\\APIProject.csproj",
       "projectName": "APIProject",
       "projectPath": "C:\\Users\\maril\\Desktop\\APIProject\\APIProject.csproj",
       "packagesPath": "C:\\Users\\maril\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\maril\\Desktop\\APIProject\\obj\\",
+>>>>>>> 96e06e905e730f9dad12309f8cbce7f207ffc457
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
+        "C:\\Users\\manik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
         "C:\\Users\\maril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 96e06e905e730f9dad12309f8cbce7f207ffc457
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
