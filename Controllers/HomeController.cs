@@ -13,24 +13,7 @@ namespace APIProject.Controllers
 {
     public class HomeController : Controller
     {
-        public string GetData()
-        {
-            HttpWebRequest request = WebRequest.CreateHttp("http://www.recipepuppy.com/api/");
-
-            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-
-            StreamReader rd = new StreamReader(response.GetResponseStream());
-
-            string ApiText = rd.ReadToEnd();
-
-            return ApiText;
-        }
-
-        public JToken ParseJsonString(string text)
-        {
-            JToken output = JToken.Parse(text);
-            return output;
-        }
+        
 
 
 
