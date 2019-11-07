@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using APIProject.Models;
-using System.Net;
+﻿using Newtonsoft.Json.Linq;
 using System.IO;
-using Newtonsoft.Json.Linq;
+using System.Net;
 
 namespace APIProject.Models
 {
