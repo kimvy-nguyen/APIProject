@@ -1,5 +1,6 @@
 ﻿using APIProject.Models;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Diagnostics;
 
 namespace APIProject.Controllers
@@ -19,7 +20,10 @@ namespace APIProject.Controllers
             return View();
         }
 
-
+        private dynamic GetData()
+        {
+            throw new NotImplementedException();
+        }
 
         public IActionResult Privacy()
         {
