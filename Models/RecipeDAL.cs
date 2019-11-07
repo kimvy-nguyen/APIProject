@@ -27,10 +27,7 @@ namespace APIProject.Models
             return ApiText;
         }
 
-        public Recipe ConvertAPIToRecipe(string APIText)
-        {
-            JToken t = JToken.Parse(text);
-        }
+        
 
         public JToken ParseJsonString(string text)
         {
